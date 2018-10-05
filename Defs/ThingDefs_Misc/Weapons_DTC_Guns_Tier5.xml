@@ -83,7 +83,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -167,7 +167,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -251,7 +251,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
       <li>SniperRifle</li>
     </weaponTags>
   </ThingDef>
@@ -293,7 +293,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.35</MoveSpeed>
@@ -360,6 +360,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Plasma</defaultProjectile>
+        <forcedMissRadius>0.25</forcedMissRadius>
         <warmupTime>1.50</warmupTime>
         <range>18</range>
         <burstShotCount>1</burstShotCount>
@@ -370,7 +371,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.05</MoveSpeed>
@@ -452,10 +453,11 @@
         <soundCast>ShotPlasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <forcedMissRadius>0.75</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>
@@ -537,10 +539,11 @@
         <soundCast>ShotPlasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <forcedMissRadius>0.25</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.20</MoveSpeed>
@@ -622,10 +625,11 @@
         <soundCast>ShotPlasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <forcedMissRadius>1.50</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
-      <li>EliteGun</li>
+      <li>SpacerGun</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.40</MoveSpeed>
@@ -691,6 +695,8 @@
       <damageDef>PlasmaDamage</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <explosionRadius>0.5</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0</preExplosionSpawnChance>
       <speed>40</speed>
       <stoppingPower>2</stoppingPower>
     </projectile>

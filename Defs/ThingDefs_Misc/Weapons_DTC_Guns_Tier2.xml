@@ -22,6 +22,7 @@
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
+      <li>Revolver</li>
     </weaponTags>
     <costList>
       <Steel>30</Steel>
@@ -282,7 +283,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>EliteGun</li>
+			<li>IndustrialGunAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>

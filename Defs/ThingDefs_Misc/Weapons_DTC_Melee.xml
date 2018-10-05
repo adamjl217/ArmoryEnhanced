@@ -21,9 +21,6 @@
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>Melee</li>
-    </weaponTags>
     <thingCategories>
       <li>WeaponsMelee</li>
     </thingCategories>
@@ -113,9 +110,10 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NonNeolithicOnlySimpleMelee</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
       <li>NeolithicMeleeBasic</li>
+      <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <tools>
       <li>
@@ -169,9 +167,10 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NonNeolithicOnlySimpleMelee</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
       <li>NeolithicMeleeBasic</li>
+      <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <tools>
       <li>
@@ -231,9 +230,8 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NonNeolithicOnlySimpleMelee</li>
-      <li>NeolithicMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+      <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <tools>
       <li>
@@ -286,9 +284,9 @@
       </recipeUsers>
     </recipeMaker>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NonNeolithicOnlySimpleMelee</li>
-      <li>NeolithicMeleeBasic</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+      <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <tools>
       <li>
@@ -334,6 +332,7 @@
     <techLevel>Neolithic</techLevel>
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
+      <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <costStuffCount>70</costStuffCount>
     <statBases>
@@ -481,9 +480,10 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NonNeolithicOnlySimpleMelee</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
       <li>NeolithicMeleeBasic</li>
+      <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <equippedStatOffsets>
       <PlantWorkSpeed>+0.05</PlantWorkSpeed>
@@ -541,7 +541,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeBasic</li>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
@@ -600,8 +600,8 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeBasic</li>
+      <li>NeolithicMeleeDecent</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
@@ -651,7 +651,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeBasic</li>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
     <soundInteract>Interact_Autopistol</soundInteract>
@@ -689,6 +689,7 @@
     </recipeMaker>
     <weaponTags>
       <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeBasic</li>
     </weaponTags>
     <tools>
       <li>
@@ -767,8 +768,9 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>NeolithicMeleeDecent</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
     </weaponTags>
   </ThingDef>
   <!--Tier 3-->
@@ -824,8 +826,8 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
@@ -884,8 +886,8 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>
@@ -937,7 +939,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeDecent</li>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
@@ -989,7 +991,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeDecent</li>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
@@ -1049,7 +1051,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeDecent</li>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
@@ -1108,7 +1110,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
@@ -1162,7 +1164,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.05</MoveSpeed>
@@ -1220,7 +1222,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.05</MoveSpeed>
@@ -1279,7 +1281,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
@@ -1349,7 +1351,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
@@ -1419,7 +1421,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>
@@ -1482,7 +1484,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>

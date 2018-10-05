@@ -70,7 +70,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+			<li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -144,7 +144,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -218,7 +218,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -292,7 +292,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -330,6 +330,7 @@
         <soundCast>ShotRailHeavy</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <forcedMissRadius>0.01</forcedMissRadius>
       </li>
     </verbs>
     <equippedStatOffsets>
@@ -357,7 +358,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <!--== Gauss Weapons ==-->
@@ -431,7 +432,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -504,7 +505,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -577,7 +578,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -650,7 +651,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -714,7 +715,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>AdvancedGun</li>
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
   </ThingDef>
   <!--== Ammo ==-->
