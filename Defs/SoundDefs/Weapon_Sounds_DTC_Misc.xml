@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>DTCfireball</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>DTCfireball</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+    <context>MapOnly</context>
+  </SoundDef>
+  <SoundDef>
+    <defName>DTCflameshot</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>DTCflame</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+    <context>MapOnly</context>
+  </SoundDef>
+</Defs>

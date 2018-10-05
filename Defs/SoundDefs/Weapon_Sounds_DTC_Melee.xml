@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>StrikePowerSword</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>PowerSword</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+    <context>MapOnly</context>
+  </SoundDef>
+  <SoundDef>
+    <defName>StrikePowerAxe</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>PowerAxe</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+    <context>MapOnly</context>
+  </SoundDef>
+  <SoundDef>
+    <defName>StrikePowerMaul</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>PowerMaul</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+    <context>MapOnly</context>
+  </SoundDef>
+</Defs>

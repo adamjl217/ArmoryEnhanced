@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Flamethrower</defName>
+    <label>Flame</label>
+    <graphicData>
+      <texPath>Things/Weapons/BulletFlamethrower</texPath>
+      <graphicClass>Graphic_Flicker</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>20</speed>
+      <damageDef>Flamethrower</damageDef>
+      <damageAmountBase>2</damageAmountBase>
+      <explosionRadius>1.0</explosionRadius>
+      <preExplosionSpawnThingDef>Fire</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_Flamethrower</defName>
+    <label>Heavy Flamethrower</label>
+    <description>High intensity flames cause significant damage to anything that comes within range. Be aware of the environment - keep away from anything flammable.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Flamethrower</texPath>
+      <graphicClass>Graphic_Flicker</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>3.4</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <Component>4</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Flamethrower</defaultProjectile>
+        <warmupTime>3</warmupTime>
+        <range>10</range>
+        <burstShotCount>20</burstShotCount>
+        <soundCast>DTCflameshot</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <forcedMissRadius>1.0</forcedMissRadius>
+      </li>
+    </verbs>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- ======================= Non-producible ======================= -->
+</Defs>

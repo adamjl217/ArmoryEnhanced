@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--===DTC Melee Research===-->
+  <ResearchProjectDef>
+    <defName>AdvancedForging</defName>
+    <label>advanced smithing techniques</label>
+    <description>Research into advanced smithing techniques allows stronger and more durable materials, significantly expanding the range of melee weapons available for creation.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tab>WeaponsDTC</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>VibroWeapons</defName>
+    <label>vibroweapon technology</label>
+    <description>Through the use of highly advanced tools and components you develop the ability to craft vibroweapons at the machining table.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tab>WeaponsDTC</tab>
+    <prerequisites>
+      <li>AdvancedForging</li>
+      <li>Machining</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PowerWeapons</defName>
+    <label>power weapons</label>
+    <description>By inlaying layers of metal with imprinted nano-circuitry, it is possible to create extremely strong melee weapons which circulate a powerful store of energy at the advanced machining table.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>VibroWeapons</li>
+      <li>AdvancedMachining</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tab>WeaponsDTC</tab>
+  </ResearchProjectDef>
+</Defs>

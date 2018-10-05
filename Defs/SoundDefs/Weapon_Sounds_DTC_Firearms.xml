@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>ShotGaussLight</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GaussLight</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotFlintlockLight</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>FlintlockLight</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotGaussMedium</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GaussMedium</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotFlintlockMedium</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>FlintlockMedium</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotGaussHeavy</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GaussHeavy</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>36</min>
+          <max>38</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotFlintlockHeavy</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>FlintlockHeavy</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>42</min>
+          <max>48</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotRailLight</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>RailLight</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>42</min>
+          <max>44</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotRailHeavy</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>RailHeavy</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>46</min>
+          <max>48</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotLaser</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Laser</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>12</min>
+          <max>13</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>ShotPlasma</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Pulse</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>42</min>
+          <max>44</max>
+        </volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

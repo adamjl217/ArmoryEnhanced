@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>LanceImpact</defName>
+    <label>Lance Impact</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} was killed by cannon fire.</deathMessage>
+    <hediff>Gunshot</hediff>
+    <hediffSolid>Gunshot</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <spreadOut>true</spreadOut>
+    <explosionDamage>10</explosionDamage>
+    <explosionBuildingDamageFactor>2</explosionBuildingDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionColorCenter>(1, 0.55, 0.3)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.55, 0.4)</explosionColorEdge>
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+  </DamageDef>
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>PlasmaDamage</defName>
+    <label>Plasma Burn</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} was melted by plasma.</deathMessage>
+    <hediff>Burn</hediff>
+    <hediffSolid>Burn</hediffSolid>
+    <harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Heat</armorCategory>
+    <spreadOut>true</spreadOut>
+    <explosionDamage>4</explosionDamage>
+    <explosionBuildingDamageFactor>0.5</explosionBuildingDamageFactor>
+    <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionColorCenter>(0.25, 1, 0.25)</explosionColorCenter>
+    <explosionColorEdge>(0.25, 0.50, 0.25)</explosionColorEdge>
+    <soundExplosion>ShotPlasma</soundExplosion>
+  </DamageDef>
+</Defs>

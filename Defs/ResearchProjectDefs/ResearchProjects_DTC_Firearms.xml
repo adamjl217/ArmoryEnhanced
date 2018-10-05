@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Tier Research-->
+  <ResearchProjectDef>
+    <defName>Blackpowder</defName>
+    <tab>WeaponsDTC</tab>
+    <label>blackpowder</label>
+    <description>Craft neolithic firearms at a crafting spot.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>GaussResearch</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Electromagnetic Weapons</label>
+    <description>Produce advanced electromagnetic Gauss weapons, which deal significant damage.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Gunsmithing</li>
+      <li>AdvancedMachining</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RailResearch</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Railgun Technology</label>
+    <description>Further develop Gauss technology to develop Rail-based weapons, which are lighter and more accurate with a minimal loss of power.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>GaussResearch</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>5</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>LaserResearch</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Directed Energy Weapons</label>
+    <description>Produce advanced energy weapons, which are both fast and accurate.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Batteries</li>
+      <li>AdvancedMachining</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>3</researchViewX>
+    <researchViewY>5</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PlasmaResearch</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Microfield Plasma Containment</label>
+    <description>Microfield containment units are necessary in the creation of highly advanced plasma weapons.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>LaserResearch</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>5</researchViewX>
+    <researchViewY>5</researchViewY>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MultibarrelWeapons</defName>
+    <label>Specialist Weapons</label>
+    <description>In addition to the relevent level of technology, allows the production of ultraheavy firearms.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BlowbackOperation</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>WeaponsDTC</tab>
+  </ResearchProjectDef>
+  <!--Heavy Weapons-->
+  <ResearchProjectDef>
+    <defName>ResearchLMG</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Advanced Weapon: Light Machine Gun</label>
+    <description>Unlocks the advanced heavy ballistic weapon.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>4</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchMinigun</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Advanced Weapon: Minigun</label>
+    <description>Unlocks the advanced heavy mechanical weapon.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BlowbackOperation</li>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>5</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchGaussCannon</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Advanced Weapon: Gauss Cannon</label>
+    <description>Unlocks the advanced heavy Gauss weapon.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>GaussResearch</li>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchRailLance</defName>
+    <tab>WeaponsDTC</tab>
+    <label>Advanced Weapon: Rail Lance</label>
+    <description>Unlocks the advanced heavy Rail weapon.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>RailResearch</li>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>6</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchGatlingLaser</defName>
+    <tab>WeaponsDTC</tab>
+    <label>advanced weapon: Gatling Laser</label>
+    <description>Unlocks the advanced heavy Laser weapon.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>LaserResearch</li>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchPlasmaCannon</defName>
+    <tab>WeaponsDTC</tab>
+    <label>advanced weapon: Plasma Cannon</label>
+    <description>Unlocks the advanced heavy Plasma weapon.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PlasmaResearch</li>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+    <tags></tags>
+    <researchViewX>6</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+  <!--Other-->
+  <ResearchProjectDef>
+    <defName>AdvancedMachining</defName>
+    <label>advanced machining</label>
+    <description>Build advanced machining tables to craft highly advanced weapons and armor.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+    <tab>WeaponsDTC</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ChargedShot</defName>
+    <label>Mag-Charge Energy weapons</label>
+    <description>By combining electromagnetic propulsion of solid ammunition with a superheated microfield contained laser, exeptionally powerful weapons can be created.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PlasmaResearch</li>
+      <li>RailResearch</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>8</researchViewX>
+    <researchViewY>3</researchViewY>
+    <tab>WeaponsDTC</tab>
+  </ResearchProjectDef>
+</Defs>
