@@ -12,6 +12,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <speed>75</speed>
+			<stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -25,6 +26,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <speed>75</speed>
+			<stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">
@@ -35,7 +37,7 @@
       <texPath>Things/Weapons/Tier6/Pistol</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>2.25</Mass>
@@ -44,12 +46,11 @@
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>25</Steel>
       <Plasteel>45</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Gold>10</Gold>
       <Jade>10</Jade>
     </costList>
@@ -64,7 +65,7 @@
         <range>24</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
-        <soundCast>ShotChargeRifle</soundCast>
+        <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -120,7 +121,7 @@
       <texPath>Things/Weapons/Tier6/RifleA</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>3.25</Mass>
@@ -129,12 +130,11 @@
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>35</Steel>
       <Plasteel>55</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Gold>10</Gold>
       <Jade>10</Jade>
     </costList>
@@ -149,7 +149,7 @@
         <range>24</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <soundCast>ShotChargeRifle</soundCast>
+        <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -208,7 +208,7 @@
       <texPath>Things/Weapons/Tier6/RifleB</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>3.25</Mass>
@@ -217,12 +217,11 @@
       <AccuracyMedium>0.95</AccuracyMedium>
       <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>35</Steel>
       <Plasteel>55</Plasteel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Gold>10</Gold>
       <Jade>10</Jade>
     </costList>
@@ -237,7 +236,7 @@
         <range>36</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
-        <soundCast>ShotChargeRifle</soundCast>
+        <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>

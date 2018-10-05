@@ -20,7 +20,7 @@
     <costList>
       <Steel>200</Steel>
       <Plasteel>100</Plasteel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
@@ -44,7 +44,6 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
         <basePowerConsumption>450</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable" />

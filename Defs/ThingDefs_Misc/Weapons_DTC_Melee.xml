@@ -36,7 +36,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
         <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
@@ -62,11 +62,11 @@
         <categories>
           <li>Root</li>
         </categories>
-        <exceptedThingDefs>
+        <disallowedThingDefs>
           <li>Silver</li>
           <li>Gold</li>
           <li>WoodLog</li>
-        </exceptedThingDefs>
+        </disallowedThingDefs>
       </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
@@ -76,10 +76,10 @@
         <categories>
           <li>Root</li>
         </categories>
-        <exceptedThingDefs>
+        <disallowedThingDefs>
           <li>Silver</li>
           <li>Gold</li>
-        </exceptedThingDefs>
+        </disallowedThingDefs>
       </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
@@ -98,7 +98,6 @@
     <statBases>
       <WorkToMake>500</WorkToMake>
       <Mass>3.0</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -151,12 +150,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Neolithic</techLevel>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>40</costStuffCount>
     <statBases>
       <WorkToMake>750</WorkToMake>
       <Mass>1.00</Mass>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -219,7 +217,6 @@
     <statBases>
       <WorkToMake>1000</WorkToMake>
       <Mass>2.4</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -257,7 +254,7 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
     </equippedStatOffsets>
@@ -275,7 +272,6 @@
     <statBases>
       <WorkToMake>1000</WorkToMake>
       <Mass>2.4</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -321,7 +317,7 @@
         <cooldownTime>2.1</cooldownTime>
       </li>
     </tools>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <PlantWorkSpeed>+0.10</PlantWorkSpeed>
@@ -343,7 +339,6 @@
     <statBases>
       <WorkToMake>1250</WorkToMake>
       <Mass>1.1</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -385,7 +380,6 @@
     <statBases>
       <WorkToMake>1000</WorkToMake>
       <Mass>2.6</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>25</equippedAngleOffset>
     <stuffCategories>
@@ -430,7 +424,7 @@
         <cooldownTime>2.1</cooldownTime>
       </li>
     </tools>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>
     </equippedStatOffsets>
@@ -444,12 +438,11 @@
       <texPath>Things/Weapons/Dagger</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>50</costStuffCount>
     <statBases>
       <WorkToMake>1750</WorkToMake>
       <Mass>1.4</Mass>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -505,12 +498,11 @@
       <texPath>Things/Weapons/ShortSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>60</costStuffCount>
     <statBases>
       <WorkToMake>2000</WorkToMake>
       <Mass>1.6</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -564,12 +556,11 @@
       <texPath>Things/Weapons/Axe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>60</costStuffCount>
     <statBases>
       <WorkToMake>2000</WorkToMake>
       <Mass>2.6</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -629,7 +620,6 @@
     <statBases>
       <WorkToMake>2000</WorkToMake>
       <Mass>2.2</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -664,7 +654,7 @@
       <li>NonNeolithicOnlyMelee</li>
       <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <MiningSpeed>+0.05</MiningSpeed>
@@ -673,7 +663,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
     <defName>MeleeWeapon_Pickaxe</defName>
     <label>Pickaxe</label>
-    <description></description>
+    <description>A pickaxe that can used for more than mining</description>
     <graphicData>
       <texPath>Things/Weapons/Pickaxe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -683,7 +673,6 @@
     <statBases>
       <WorkToMake>2000</WorkToMake>
       <Mass>2.6</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>25</equippedAngleOffset>
     <stuffCategories>
@@ -728,7 +717,7 @@
         <cooldownTime>2.4</cooldownTime>
       </li>
     </tools>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <MiningSpeed>+0.15</MiningSpeed>
@@ -743,12 +732,11 @@
       <texPath>Things/Weapons/Claw</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>80</costStuffCount>
     <statBases>
       <WorkToMake>2250</WorkToMake>
       <Mass>1.6</Mass>
-      <Weapon_Bulk>0.25</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -792,12 +780,11 @@
       <texPath>Things/Weapons/LongSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>70</costStuffCount>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>2.0</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -852,12 +839,11 @@
       <texPath>Things/Weapons/Battleaxe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>70</costStuffCount>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>3.2</Mass>
-      <Weapon_Bulk>1.00</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -914,12 +900,11 @@
       <texPath>Things/Weapons/Greatmace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>70</costStuffCount>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>3.4</Mass>
-      <Weapon_Bulk>1.00</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -968,12 +953,11 @@
       <texPath>Things/Weapons/Talon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>90</costStuffCount>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>2.1</Mass>
-      <Weapon_Bulk>0.25</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -1020,12 +1004,11 @@
       <texPath>Things/Weapons/Glaive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <costStuffCount>70</costStuffCount>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>3.00</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>15</equippedAngleOffset>
     <stuffCategories>
@@ -1082,14 +1065,13 @@
       <texPath>Things/Weapons/Vibroknife</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>12500</WorkToMake>
       <Mass>1.6</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Steel>60</Steel>
     </costList>
     <equippedAngleOffset>-75</equippedAngleOffset>
@@ -1137,14 +1119,13 @@
       <texPath>Things/Weapons/Vibrosword</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>2.1</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Steel>80</Steel>
     </costList>
     <equippedAngleOffset>-70</equippedAngleOffset>
@@ -1195,14 +1176,13 @@
       <texPath>Things/Weapons/Vibroaxe</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>2.9</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Steel>80</Steel>
     </costList>
     <equippedAngleOffset>-60</equippedAngleOffset>
@@ -1255,11 +1235,10 @@
       <texPath>Things/Weapons/Vibrolance</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>3.1</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>15</equippedAngleOffset>
     <recipeMaker>
@@ -1269,7 +1248,7 @@
       <researchPrerequisite>VibroWeapons</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Steel>80</Steel>
     </costList>
     <tools>
@@ -1316,16 +1295,15 @@
       <graphicClass>Graphic_Flicker</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>30000</WorkToMake>
       <Mass>3.6</Mass>
-      <Weapon_Bulk>1.25</Weapon_Bulk>
     </statBases>
     <costList>
       <Silver>1000</Silver>
       <Plasteel>50</Plasteel>
-      <Component>10</Component>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <equippedAngleOffset>-20</equippedAngleOffset>
     <recipeMaker>
@@ -1387,16 +1365,15 @@
       <graphicClass>Graphic_Flicker</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>30000</WorkToMake>
       <Mass>3.8</Mass>
-      <Weapon_Bulk>1.50</Weapon_Bulk>
     </statBases>
     <costList>
       <Silver>1000</Silver>
       <Plasteel>50</Plasteel>
-      <Component>10</Component>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <equippedAngleOffset>20</equippedAngleOffset>
     <recipeMaker>
@@ -1459,16 +1436,15 @@
       <graphicClass>Graphic_Flicker</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>30000</WorkToMake>
       <Mass>4.00</Mass>
-      <Weapon_Bulk>1.50</Weapon_Bulk>
     </statBases>
     <costList>
       <Silver>1000</Silver>
       <Plasteel>50</Plasteel>
-      <Component>10</Component>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <equippedAngleOffset>10</equippedAngleOffset>
     <recipeMaker>

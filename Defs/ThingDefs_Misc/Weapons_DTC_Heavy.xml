@@ -15,6 +15,7 @@
       <damageAmountBase>2</damageAmountBase>
       <explosionRadius>1.0</explosionRadius>
       <preExplosionSpawnThingDef>Fire</preExplosionSpawnThingDef>
+			<stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseGun">
@@ -25,7 +26,7 @@
       <texPath>Things/Weapons/Flamethrower</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>22000</WorkToMake>
       <Mass>3.4</Mass>
@@ -37,7 +38,7 @@
     </statBases>
     <costList>
       <Steel>75</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -51,7 +52,6 @@
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>5</muzzleFlashScale>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <forcedMissRadius>1.0</forcedMissRadius>
       </li>
     </verbs>
     <equippedStatOffsets>

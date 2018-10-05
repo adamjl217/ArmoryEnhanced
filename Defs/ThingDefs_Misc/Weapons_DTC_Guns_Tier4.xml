@@ -10,7 +10,7 @@
       <texPath>Things/Weapons/Tier4A/PistolA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>1.00</Mass>
@@ -19,11 +19,10 @@
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.4</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>30</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <Plasteel>10</Plasteel>
     </costList>
     <verbs>
@@ -82,7 +81,7 @@
       <texPath>Things/Weapons/Tier4A/SMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>2.00</Mass>
@@ -91,11 +90,10 @@
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.40</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.4</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>40</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Plasteel>10</Plasteel>
     </costList>
     <verbs>
@@ -157,7 +155,7 @@
       <texPath>Things/Weapons/Tier4A/RifleA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>2.50</Mass>
@@ -166,11 +164,10 @@
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.90</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.4</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>40</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <Plasteel>10</Plasteel>
     </costList>
     <verbs>
@@ -232,7 +229,7 @@
       <texPath>Things/Weapons/Tier4A/RifleB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>3.00</Mass>
@@ -241,11 +238,10 @@
       <AccuracyMedium>1.00</AccuracyMedium>
       <AccuracyLong>0.90</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.8</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <Plasteel>10</Plasteel>
     </costList>
     <verbs>
@@ -307,7 +303,7 @@
       <texPath>Things/Weapons/Tier4A/Lance</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.00</Mass>
@@ -316,11 +312,10 @@
       <AccuracyMedium>1.25</AccuracyMedium>
       <AccuracyLong>1.05</AccuracyLong>
       <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>80</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Plasteel>20</Plasteel>
     </costList>
     <verbs>
@@ -374,7 +369,7 @@
       <texPath>Things/Weapons/Tier4B/Pistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>1.50</Mass>
@@ -383,11 +378,10 @@
       <AccuracyMedium>0.70</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.6</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>70</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -448,7 +442,7 @@
       <texPath>Things/Weapons/Tier4B/RifleA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>3.50</Mass>
@@ -457,11 +451,10 @@
       <AccuracyMedium>0.95</AccuracyMedium>
       <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.2</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>90</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -522,7 +515,7 @@
       <texPath>Things/Weapons/Tier4B/Scattergun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>3.50</Mass>
@@ -531,11 +524,10 @@
       <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.2</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>90</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -596,7 +588,7 @@
       <texPath>Things/Weapons/Tier4B/RifleB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.00</Mass>
@@ -605,11 +597,10 @@
       <AccuracyMedium>0.85</AccuracyMedium>
       <AccuracyLong>0.95</AccuracyLong>
       <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.4</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>90</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -670,7 +661,7 @@
       <texPath>Things/Weapons/Tier4B/Cannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.75</Mass>
@@ -679,11 +670,10 @@
       <AccuracyMedium>0.50</AccuracyMedium>
       <AccuracyLong>0.40</AccuracyLong>
       <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.4</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>120</Steel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -697,7 +687,6 @@
         <soundCast>ShotGaussHeavy</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <forcedMissRadius>1.5</forcedMissRadius>
       </li>
     </verbs>
     <equippedStatOffsets>
@@ -742,6 +731,7 @@
       <damageAmountBase>30</damageAmountBase>
       <speed>80</speed>
       <explosionRadius>0.5</explosionRadius>
+			<stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -755,6 +745,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
       <speed>80</speed>
+			<stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -768,6 +759,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <speed>80</speed>
+			<stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -781,6 +773,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <speed>80</speed>
+			<stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -794,6 +787,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
       <speed>75</speed>
+			<stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -807,6 +801,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <speed>75</speed>
+			<stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -820,6 +815,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>8</damageAmountBase>
       <speed>75</speed>
+			<stoppingPower>4</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -833,6 +829,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>28</damageAmountBase>
       <speed>100</speed>
+			<stoppingPower>6</stoppingPower>
     </projectile>
   </ThingDef>
 </Defs>

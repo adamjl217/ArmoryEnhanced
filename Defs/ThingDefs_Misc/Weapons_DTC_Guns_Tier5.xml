@@ -10,7 +10,7 @@
       <texPath>Things/Weapons/Tier5A/Pistol</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>1.25</Mass>
@@ -19,11 +19,10 @@
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>25</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Plasteel>25</Plasteel>
     </costList>
     <verbs>
@@ -95,7 +94,7 @@
       <texPath>Things/Weapons/Tier5A/Rifle</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>3.25</Mass>
@@ -104,11 +103,10 @@
       <AccuracyMedium>0.95</AccuracyMedium>
       <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>35</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Plasteel>35</Plasteel>
     </costList>
     <verbs>
@@ -180,7 +178,7 @@
       <texPath>Things/Weapons/Tier5A/LongRifle</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <Mass>3.25</Mass>
@@ -189,11 +187,10 @@
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>1.00</AccuracyLong>
       <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>35</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Plasteel>35</Plasteel>
     </costList>
     <verbs>
@@ -266,7 +263,7 @@
       <texPath>Things/Weapons/Tier5A/Gatling</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.50</Mass>
@@ -275,11 +272,10 @@
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>2.75</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>55</Steel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
       <Plasteel>55</Plasteel>
     </costList>
     <verbs>
@@ -294,7 +290,6 @@
         <soundCast>ShotLaser</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <forcedMissRadius>1.5</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
@@ -344,7 +339,7 @@
       <texPath>Things/Weapons/Tier5B/PistolAlt</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>1.45</Mass>
@@ -353,11 +348,10 @@
       <AccuracyMedium>0.70</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.6</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>25</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Plasteel>25</Plasteel>
       <Jade>10</Jade>
     </costList>
@@ -373,7 +367,6 @@
         <soundCast>ShotPlasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <forcedMissRadius>0.25</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
@@ -431,7 +424,7 @@
       <texPath>Things/Weapons/Tier5B/Pulsar</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractSMG</soundInteract>
+    <soundInteract>Interact_SMG</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>2.45</Mass>
@@ -440,11 +433,10 @@
       <AccuracyMedium>0.30</AccuracyMedium>
       <AccuracyLong>0.15</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.6</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>30</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Plasteel>30</Plasteel>
       <Jade>15</Jade>
     </costList>
@@ -460,7 +452,6 @@
         <soundCast>ShotPlasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <forcedMissRadius>0.75</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
@@ -518,7 +509,7 @@
       <texPath>Things/Weapons/Tier5B/Rifle</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>3.45</Mass>
@@ -527,11 +518,10 @@
       <AccuracyMedium>0.95</AccuracyMedium>
       <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.2</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>35</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Plasteel>35</Plasteel>
       <Jade>15</Jade>
     </costList>
@@ -547,7 +537,6 @@
         <soundCast>ShotPlasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <forcedMissRadius>0.25</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
@@ -605,7 +594,7 @@
       <texPath>Things/Weapons/Tier5B/Cannon</texPath>
       <graphicClass>Graphic_Flicker</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>1.45</Mass>
@@ -614,11 +603,10 @@
       <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.40</AccuracyLong>
       <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.4</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
       <Plasteel>50</Plasteel>
       <Jade>20</Jade>
     </costList>
@@ -634,7 +622,6 @@
         <soundCast>ShotPlasma</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <forcedMissRadius>1.50</forcedMissRadius>
       </li>
     </verbs>
     <weaponTags>
@@ -688,6 +675,7 @@
       <damageDef>Burn</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <speed>90</speed>
+			<stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <!--== Plasma Ammo ==-->
@@ -704,6 +692,7 @@
       <damageAmountBase>14</damageAmountBase>
       <explosionRadius>0.5</explosionRadius>
       <speed>40</speed>
+			<stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -719,6 +708,7 @@
       <damageAmountBase>18</damageAmountBase>
       <explosionRadius>1.00</explosionRadius>
       <speed>45</speed>
+			<stoppingPower>4</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -734,6 +724,7 @@
       <damageAmountBase>10</damageAmountBase>
       <explosionRadius>0.5</explosionRadius>
       <speed>40</speed>
+			<stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
 </Defs>

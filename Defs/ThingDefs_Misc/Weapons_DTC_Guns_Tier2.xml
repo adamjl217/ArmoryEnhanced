@@ -10,7 +10,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRevolver</soundInteract>
+    <soundInteract>Interact_Revolver</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1.4</Mass>
@@ -19,14 +19,13 @@
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.30</AccuracyLong>
       <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
     </weaponTags>
     <costList>
       <Steel>30</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -35,7 +34,7 @@
         <defaultProjectile>Bullet_Revolver</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>26</range>
-        <soundCast>ShotRevolver</soundCast>
+        <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <ticksBetweenBurstShots>100</ticksBetweenBurstShots>
@@ -70,7 +69,7 @@
       <texPath>Things/Weapons/Tier2/Pistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractAutopistol</soundInteract>
+    <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>1.25</Mass>
@@ -79,12 +78,11 @@
       <AccuracyMedium>0.60</AccuracyMedium>
       <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
       <WoodLog>5</WoodLog>
       <Steel>30</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -93,7 +91,7 @@
         <defaultProjectile>Bullet_Pistol</defaultProjectile>
         <warmupTime>1.00</warmupTime>
         <range>22</range>
-        <soundCast>ShotAutopistol</soundCast>
+        <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -129,7 +127,7 @@
       <texPath>Things/Weapons/Tier2/RifleA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>1.5</generateCommonality>
     <statBases>
       <WorkToMake>25000</WorkToMake>
@@ -139,12 +137,11 @@
       <AccuracyMedium>0.95</AccuracyMedium>
       <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
       <WoodLog>15</WoodLog>
       <Steel>40</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -153,7 +150,7 @@
         <defaultProjectile>Bullet_BoltActionRifle</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>32</range>
-        <soundCast>ShotBoltActionRifle</soundCast>
+        <soundCast>Shot_BoltActionRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -192,7 +189,7 @@
       <texPath>Things/Weapons/Tier2/Shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractShotgun</soundInteract>
+    <soundInteract>Interact_Shotgun</soundInteract>
     <statBases>
       <WorkToMake>30000</WorkToMake>
       <Mass>3.25</Mass>
@@ -201,12 +198,11 @@
       <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
       <WoodLog>10</WoodLog>
       <Steel>40</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -215,12 +211,11 @@
         <defaultProjectile>Bullet_PumpShotgun</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>14</range>
-        <soundCast>ShotShotgun</soundCast>
+        <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <forcedMissRadius>0.8</forcedMissRadius>
       </li>
     </verbs>
     <equippedStatOffsets>
@@ -257,7 +252,7 @@
       <texPath>Things/Weapons/Tier2/LMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>34000</WorkToMake>
       <Mass>4.50</Mass>
@@ -266,12 +261,11 @@
       <AccuracyMedium>0.50</AccuracyMedium>
       <AccuracyLong>0.40</AccuracyLong>
       <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <costList>
       <WoodLog>10</WoodLog>
       <Steel>60</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -282,7 +276,7 @@
         <range>28</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>12</burstShotCount>
-        <soundCast>ShotMinigun</soundCast>
+        <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -352,6 +346,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <speed>65</speed>
+			<stoppingPower>2</stoppingPower>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -369,6 +364,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>5</damageAmountBase>
       <speed>65</speed>
+			<stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
