@@ -675,7 +675,7 @@
       <damageDef>Burn</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <speed>90</speed>
-			<stoppingPower>1</stoppingPower>
+      <stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <!--== Plasma Ammo ==-->
@@ -692,7 +692,7 @@
       <damageAmountBase>14</damageAmountBase>
       <explosionRadius>0.5</explosionRadius>
       <speed>40</speed>
-			<stoppingPower>2</stoppingPower>
+      <stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -708,7 +708,7 @@
       <damageAmountBase>18</damageAmountBase>
       <explosionRadius>1.00</explosionRadius>
       <speed>45</speed>
-			<stoppingPower>4</stoppingPower>
+      <stoppingPower>4</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -724,7 +724,7 @@
       <damageAmountBase>10</damageAmountBase>
       <explosionRadius>0.5</explosionRadius>
       <speed>40</speed>
-			<stoppingPower>2</stoppingPower>
+      <stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
 </Defs>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <DamageDef Name="LocalInjuryBase" Abstract="True">
-		<workerClass>DamageWorker_AddInjury</workerClass>
-	</DamageDef>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+  </DamageDef>
   <DamageDef ParentName="LocalInjuryBase">
     <defName>LanceImpact</defName>
     <label>Lance Impact</label>
@@ -14,10 +14,10 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Blunt</armorCategory>
-		<minDamageToFragment>15</minDamageToFragment>
-		<defaultDamage>10</defaultDamage>
-		<defaultStoppingPower>0.5</defaultStoppingPower>
-		<defaultArmorPenetration>0.10</defaultArmorPenetration>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
+    <defaultStoppingPower>0.5</defaultStoppingPower>
+    <defaultArmorPenetration>0.10</defaultArmorPenetration>
     <explosionBuildingDamageFactor>2</explosionBuildingDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
@@ -25,7 +25,7 @@
     <explosionColorCenter>(1, 0.55, 0.3)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.55, 0.4)</explosionColorEdge>
     <soundExplosion>Explosion_Bomb</soundExplosion>
-		<combatLogRules>Damage_Bomb</combatLogRules>
+    <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
   <DamageDef ParentName="LocalInjuryBase">
     <defName>PlasmaDamage</defName>
@@ -38,10 +38,10 @@
     <harmAllLayersUntilOutside>false</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Heat</armorCategory>
-		<minDamageToFragment>15</minDamageToFragment>
-		<defaultDamage>4</defaultDamage>
-		<defaultStoppingPower>0.5</defaultStoppingPower>
-		<defaultArmorPenetration>0.10</defaultArmorPenetration>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>4</defaultDamage>
+    <defaultStoppingPower>0.5</defaultStoppingPower>
+    <defaultArmorPenetration>0.10</defaultArmorPenetration>
     <explosionBuildingDamageFactor>0.5</explosionBuildingDamageFactor>
     <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
@@ -49,6 +49,6 @@
     <explosionColorCenter>(0.25, 1, 0.25)</explosionColorCenter>
     <explosionColorEdge>(0.25, 0.50, 0.25)</explosionColorEdge>
     <soundExplosion>ShotPlasma</soundExplosion>
-		<combatLogRules>Damage_Bomb</combatLogRules>
+    <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
 </Defs>

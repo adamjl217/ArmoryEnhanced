@@ -346,7 +346,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <speed>65</speed>
-			<stoppingPower>2</stoppingPower>
+      <stoppingPower>2</stoppingPower>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
@@ -364,7 +364,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>5</damageAmountBase>
       <speed>65</speed>
-			<stoppingPower>3</stoppingPower>
+      <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">

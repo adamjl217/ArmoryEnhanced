@@ -15,7 +15,7 @@
       <damageAmountBase>2</damageAmountBase>
       <explosionRadius>1.0</explosionRadius>
       <preExplosionSpawnThingDef>Fire</preExplosionSpawnThingDef>
-			<stoppingPower>1</stoppingPower>
+      <stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseGun">

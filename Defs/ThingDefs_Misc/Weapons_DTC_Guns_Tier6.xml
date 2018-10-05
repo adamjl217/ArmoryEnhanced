@@ -12,7 +12,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <speed>75</speed>
-			<stoppingPower>3</stoppingPower>
+      <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -26,7 +26,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <speed>75</speed>
-			<stoppingPower>2</stoppingPower>
+      <stoppingPower>2</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseHumanGun">

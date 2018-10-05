@@ -731,7 +731,7 @@
       <damageAmountBase>30</damageAmountBase>
       <speed>80</speed>
       <explosionRadius>0.5</explosionRadius>
-			<stoppingPower>3</stoppingPower>
+      <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -745,7 +745,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
       <speed>80</speed>
-			<stoppingPower>1</stoppingPower>
+      <stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -759,7 +759,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>14</damageAmountBase>
       <speed>80</speed>
-			<stoppingPower>3</stoppingPower>
+      <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -773,7 +773,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <speed>80</speed>
-			<stoppingPower>3</stoppingPower>
+      <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -787,7 +787,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>15</damageAmountBase>
       <speed>75</speed>
-			<stoppingPower>1</stoppingPower>
+      <stoppingPower>1</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -801,7 +801,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <speed>75</speed>
-			<stoppingPower>3</stoppingPower>
+      <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -815,7 +815,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>8</damageAmountBase>
       <speed>75</speed>
-			<stoppingPower>4</stoppingPower>
+      <stoppingPower>4</stoppingPower>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -829,7 +829,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>28</damageAmountBase>
       <speed>100</speed>
-			<stoppingPower>6</stoppingPower>
+      <stoppingPower>6</stoppingPower>
     </projectile>
   </ThingDef>
 </Defs>
